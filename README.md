@@ -19,10 +19,10 @@ Então a chamada funcionará sem parâmetro também.
 Também realizei a configuração do Swagger para documentação, então poderá ser utilizado também para fazer o teste da solução
 http://localhost:8080/swagger-ui.html
 
-Também sub um ambiente no elasticBeanStalk para fazer um teste com o docker, vou deixar aberto até até a data combinada com a recrutadora par finalizar o teste, caso queiram utilizar:
+Também sub um ambiente no elasticBeanStalk para fazer um teste com o docker, vou deixar aberto até até a data combinada com a recrutadora para finalizar o teste, caso queiram utilizar:
 [http://idwallapi.us-east-1.elasticbeanstalk.com/swagger-ui.html](http://idwallapi.us-east-1.elasticbeanstalk.com/swagger-ui.html)
 
 
 Deixei o arquivo _docker-compose.yml_  na raiz da pasta caso queria utilizar basta ter o docker instalado e executar _docker-compose up idwall-api_ para subir o projeto
 
-Desde de já agradeço a oportunidade e mesmo que não seja selecionado para avançar gostaria de receber o feedback para que eu melhorar no meu desenvolvimento!
+Desde de já agradeço a oportunidade e mesmo que não seja selecionado para avançar gostaria de receber o feedback para eu melhorar no meu desenvolvimento!
