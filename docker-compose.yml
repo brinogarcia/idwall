@@ -1,0 +1,11 @@
+version: '2'
+services: 
+  idwall-api:
+    image: maven
+    volumes: 
+      - "./idwall:/deploy"
+    working_dir: "/deploy"
+    ports:
+      - "8080:8080"
+    command: bash -c "mvn clean && mvn install && java -jar target/idwall-0.0.1-SNAPSHOT.war"
+    container_name: IdWallAPI  
