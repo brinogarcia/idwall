@@ -1,6 +1,5 @@
-# idwall
-
-Para realizar o teste, criei uma api com duas url de chamada, uma para cada parte do desafio.
+# Refactor
+Criei uma api com duas url de chamada, uma para cada parte do desafio.
 A primeira retorna o texto sem  justificar, e a segunda retorna o texto justificado:
 http://localhost:8080/string/refactor
 http://localhost:8080/string/refactor/justified
